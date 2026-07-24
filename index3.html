@@ -1,0 +1,275 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    <title>Play Piano!</title>
+
+    <script type="module" crossorigin="" src="./assets/script.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <noscript>Javascript is needed to run this app.</noscript>
+
+
+    <main>
+        <div class="control-panel svelte-b9289n">
+            <div class="row svelte-b9289n">
+                <div class="option-list svelte-1ue5508">
+                    <div title="Shortcut: space" class="svelte-1ue5508"><span class="svelte-1ue5508">Sustain</span> <input type="checkbox"></div>
+                    <div class="svelte-1ue5508"><span title="Double click to reset" class="svelte-1ue5508">Tranpose</span> <input title="Note shift (shortcut: left ctrl + left alt)" type="number"> <input title="Octave shift (shortcut: right alt + right ctrl)" type="number"></div>
+                    <div class="svelte-1ue5508"><span class="svelte-1ue5508">Volume</span> <input type="range" min="0" max="10" step="0.1" style="width: 8rem;"> <input type="number"></div>
+                    <div class="svelte-1ue5508"><span class="svelte-1ue5508">Instrument</span> <select>
+                            <option value="accordion">Accordion</option>
+                            <option value="acoustic_bass">Acoustic Bass</option>
+                            <option value="acoustic_grand_piano">Acoustic Grand Piano</option>
+                            <option value="acoustic_guitar_nylon">Acoustic Guitar Nylon</option>
+                            <option value="acoustic_guitar_steel">Acoustic Guitar Steel</option>
+                            <option value="agogo">Agogo</option>
+                            <option value="alto_sax">Alto Sax</option>
+                            <option value="applause">Applause</option>
+                            <option value="bagpipe">Bagpipe</option>
+                            <option value="banjo">Banjo</option>
+                            <option value="baritone_sax">Baritone Sax</option>
+                            <option value="bassoon">Bassoon</option>
+                            <option value="bird_tweet">Bird Tweet</option>
+                            <option value="blown_bottle">Blown Bottle</option>
+                            <option value="brass_section">Brass Section</option>
+                            <option value="breath_noise">Breath Noise</option>
+                            <option value="bright_acoustic_piano">Bright Acoustic Piano</option>
+                            <option value="celesta">Celesta</option>
+                            <option value="cello">Cello</option>
+                            <option value="choir_aahs">Choir Aahs</option>
+                            <option value="church_organ">Church Organ</option>
+                            <option value="clarinet">Clarinet</option>
+                            <option value="clavinet">Clavinet</option>
+                            <option value="contrabass">Contrabass</option>
+                            <option value="distortion_guitar">Distortion Guitar</option>
+                            <option value="drawbar_organ">Drawbar Organ</option>
+                            <option value="dulcimer">Dulcimer</option>
+                            <option value="electric_bass_finger">Electric Bass Finger</option>
+                            <option value="electric_bass_pick">Electric Bass Pick</option>
+                            <option value="electric_grand_piano">Electric Grand Piano</option>
+                            <option value="electric_guitar_clean">Electric Guitar Clean</option>
+                            <option value="electric_guitar_jazz">Electric Guitar Jazz</option>
+                            <option value="electric_guitar_muted">Electric Guitar Muted</option>
+                            <option value="electric_piano_1">Electric Piano 1</option>
+                            <option value="electric_piano_2">Electric Piano 2</option>
+                            <option value="english_horn">English Horn</option>
+                            <option value="fiddle">Fiddle</option>
+                            <option value="flute">Flute</option>
+                            <option value="french_horn">French Horn</option>
+                            <option value="fretless_bass">Fretless Bass</option>
+                            <option value="fx_1_rain">Fx 1 Rain</option>
+                            <option value="fx_2_soundtrack">Fx 2 Soundtrack</option>
+                            <option value="fx_3_crystal">Fx 3 Crystal</option>
+                            <option value="fx_4_atmosphere">Fx 4 Atmosphere</option>
+                            <option value="fx_5_brightness">Fx 5 Brightness</option>
+                            <option value="fx_6_goblins">Fx 6 Goblins</option>
+                            <option value="fx_7_echoes">Fx 7 Echoes</option>
+                            <option value="fx_8_scifi">Fx 8 Scifi</option>
+                            <option value="glockenspiel">Glockenspiel</option>
+                            <option value="guitar_fret_noise">Guitar Fret Noise</option>
+                            <option value="guitar_harmonics">Guitar Harmonics</option>
+                            <option value="gunshot">Gunshot</option>
+                            <option value="harmonica">Harmonica</option>
+                            <option value="harpsichord">Harpsichord</option>
+                            <option value="helicopter">Helicopter</option>
+                            <option value="honkytonk_piano">Honkytonk Piano</option>
+                            <option value="kalimba">Kalimba</option>
+                            <option value="koto">Koto</option>
+                            <option value="lead_1_square">Lead 1 Square</option>
+                            <option value="lead_2_sawtooth">Lead 2 Sawtooth</option>
+                            <option value="lead_3_calliope">Lead 3 Calliope</option>
+                            <option value="lead_4_chiff">Lead 4 Chiff</option>
+                            <option value="lead_5_charang">Lead 5 Charang</option>
+                            <option value="lead_6_voice">Lead 6 Voice</option>
+                            <option value="lead_7_fifths">Lead 7 Fifths</option>
+                            <option value="lead_8_bass__lead">Lead 8 Bass Lead</option>
+                            <option value="marimba">Marimba</option>
+                            <option value="melodic_tom">Melodic Tom</option>
+                            <option value="music_box">Music Box</option>
+                            <option value="muted_trumpet">Muted Trumpet</option>
+                            <option value="oboe">Oboe</option>
+                            <option value="ocarina">Ocarina</option>
+                            <option value="orchestra_hit">Orchestra Hit</option>
+                            <option value="orchestral_harp">Orchestral Harp</option>
+                            <option value="overdriven_guitar">Overdriven Guitar</option>
+                            <option value="pad_1_new_age">Pad 1 New Age</option>
+                            <option value="pad_2_warm">Pad 2 Warm</option>
+                            <option value="pad_3_polysynth">Pad 3 Polysynth</option>
+                            <option value="pad_4_choir">Pad 4 Choir</option>
+                            <option value="pad_5_bowed">Pad 5 Bowed</option>
+                            <option value="pad_6_metallic">Pad 6 Metallic</option>
+                            <option value="pad_7_halo">Pad 7 Halo</option>
+                            <option value="pad_8_sweep">Pad 8 Sweep</option>
+                            <option value="pan_flute">Pan Flute</option>
+                            <option value="percussive_organ">Percussive Organ</option>
+                            <option value="piccolo">Piccolo</option>
+                            <option value="pizzicato_strings">Pizzicato Strings</option>
+                            <option value="recorder">Recorder</option>
+                            <option value="reed_organ">Reed Organ</option>
+                            <option value="reverse_cymbal">Reverse Cymbal</option>
+                            <option value="rock_organ">Rock Organ</option>
+                            <option value="seashore">Seashore</option>
+                            <option value="shakuhachi">Shakuhachi</option>
+                            <option value="shamisen">Shamisen</option>
+                            <option value="shanai">Shanai</option>
+                            <option value="sitar">Sitar</option>
+                            <option value="slap_bass_1">Slap Bass 1</option>
+                            <option value="slap_bass_2">Slap Bass 2</option>
+                            <option value="soprano_sax">Soprano Sax</option>
+                            <option value="steel_drums">Steel Drums</option>
+                            <option value="string_ensemble_1">String Ensemble 1</option>
+                            <option value="string_ensemble_2">String Ensemble 2</option>
+                            <option value="synth_bass_1">Synth Bass 1</option>
+                            <option value="synth_bass_2">Synth Bass 2</option>
+                            <option value="synth_brass_1">Synth Brass 1</option>
+                            <option value="synth_brass_2">Synth Brass 2</option>
+                            <option value="synth_choir">Synth Choir</option>
+                            <option value="synth_drum">Synth Drum</option>
+                            <option value="synth_strings_1">Synth Strings 1</option>
+                            <option value="synth_strings_2">Synth Strings 2</option>
+                            <option value="taiko_drum">Taiko Drum</option>
+                            <option value="tango_accordion">Tango Accordion</option>
+                            <option value="telephone_ring">Telephone Ring</option>
+                            <option value="tenor_sax">Tenor Sax</option>
+                            <option value="timpani">Timpani</option>
+                            <option value="tinkle_bell">Tinkle Bell</option>
+                            <option value="tremolo_strings">Tremolo Strings</option>
+                            <option value="trombone">Trombone</option>
+                            <option value="trumpet">Trumpet</option>
+                            <option value="tuba">Tuba</option>
+                            <option value="tubular_bells">Tubular Bells</option>
+                            <option value="vibraphone">Vibraphone</option>
+                            <option value="viola">Viola</option>
+                            <option value="violin">Violin</option>
+                            <option value="voice_oohs">Voice Oohs</option>
+                            <option value="whistle">Whistle</option>
+                            <option value="woodblock">Woodblock</option>
+                            <option value="xylophone">Xylophone</option>
+                        </select> </div>
+                    <div class="svelte-1ue5508"><span class="svelte-1ue5508">Size</span> <select>
+                            <option value="A0,C8">Full size (88 keys)</option>
+                            <option value="C2,C7">Half size (61 keys)</option>
+                            <option value="C3,C6">Quater Size (37 keys)</option>
+                            <option value="C4,B5">2 Octaves (24 keys)</option>
+                            <option value="C4,B4">1 Octave (12 keys)</option>
+                        </select></div>
+                    <div class="svelte-1ue5508"><span class="svelte-1ue5508">Labels</span> <select>
+                            <option value="none">None</option>
+                            <option value="notes">Notes</option>
+                            <option value="keybinds">Keybinds</option>
+                        </select></div>
+                </div>
+                <div class="svelte-1owab3p">
+                    <p>Play midi:</p>
+                    <div class="svelte-1owab3p"><input type="file" accept=".midi,.mid"></div>
+                    <div class="svelte-1owab3p"><button disabled="">Play</button> <button disabled="">Restart</button> </div>
+                    <div class="svelte-1owab3p"><button>Record</button> <button disabled="">Save</button> </div>
+                    <div class="svelte-1owab3p" style="display: flex;"><span class="svelte-1owab3p">Speed</span> <input type="range" min="0.01" max="4" step="0.01" title="Double click to set speed to normal"> <input type="number" min="0.01"> <span class="svelte-1owab3p">times</span></div>
+                    <div class="svelte-1owab3p" style="display: flex;"><input type="range" min="0" max="0" step="0.1" style="width: 18rem;"> <span class="svelte-1owab3p">0.0/0.0 seconds</span></div>
+                </div>
+            </div>
+            <div>
+                <p>Join a room:</p> <input type="text" placeholder="Room name"> <button>Join</button>
+            </div>
+        </div>
+        <div class="piano-container svelte-1569eu9" style="--white-key-width:16.3269px;">
+            <div class="piano svelte-1569eu9">
+                <div class="key white svelte-1569eu9" style="">A </div>
+                <div class="key black svelte-1569eu9">A# </div>
+                <div class="key white svelte-1569eu9" style="">B </div>
+                <div class="key white svelte-1569eu9">C </div>
+                <div class="key black svelte-1569eu9" style="">C# </div>
+                <div class="key white svelte-1569eu9" style="">D </div>
+                <div class="key black svelte-1569eu9">D# </div>
+                <div class="key white svelte-1569eu9" style="">E </div>
+                <div class="key white svelte-1569eu9">F </div>
+                <div class="key black svelte-1569eu9" style="">F# </div>
+                <div class="key white svelte-1569eu9">G </div>
+                <div class="key black svelte-1569eu9" style="">G# </div>
+                <div class="key white svelte-1569eu9" style="">A </div>
+                <div class="key black svelte-1569eu9">A# </div>
+                <div class="key white svelte-1569eu9" style="">B </div>
+                <div class="key white svelte-1569eu9">C </div>
+                <div class="key black svelte-1569eu9">C# </div>
+                <div class="key white svelte-1569eu9">D </div>
+                <div class="key black svelte-1569eu9">D# </div>
+                <div class="key white svelte-1569eu9">E </div>
+                <div class="key white svelte-1569eu9">F </div>
+                <div class="key black svelte-1569eu9">F# </div>
+                <div class="key white svelte-1569eu9">G </div>
+                <div class="key black svelte-1569eu9">G# </div>
+                <div class="key white svelte-1569eu9">A </div>
+                <div class="key black svelte-1569eu9">A# </div>
+                <div class="key white svelte-1569eu9">B </div>
+                <div class="key white svelte-1569eu9">C </div>
+                <div class="key black svelte-1569eu9">C# </div>
+                <div class="key white svelte-1569eu9">D </div>
+                <div class="key black svelte-1569eu9">D# </div>
+                <div class="key white svelte-1569eu9">E </div>
+                <div class="key white svelte-1569eu9">F </div>
+                <div class="key black svelte-1569eu9">F# </div>
+                <div class="key white svelte-1569eu9">G </div>
+                <div class="key black svelte-1569eu9">G# </div>
+                <div class="key white svelte-1569eu9">A </div>
+                <div class="key black svelte-1569eu9">A# </div>
+                <div class="key white svelte-1569eu9">B </div>
+                <div class="key white svelte-1569eu9">C </div>
+                <div class="key black svelte-1569eu9">C# </div>
+                <div class="key white svelte-1569eu9">D </div>
+                <div class="key black svelte-1569eu9">D# </div>
+                <div class="key white svelte-1569eu9">E </div>
+                <div class="key white svelte-1569eu9">F </div>
+                <div class="key black svelte-1569eu9">F# </div>
+                <div class="key white svelte-1569eu9">G </div>
+                <div class="key black svelte-1569eu9">G# </div>
+                <div class="key white svelte-1569eu9">A </div>
+                <div class="key black svelte-1569eu9">A# </div>
+                <div class="key white svelte-1569eu9">B </div>
+                <div class="key white svelte-1569eu9">C </div>
+                <div class="key black svelte-1569eu9">C# </div>
+                <div class="key white svelte-1569eu9">D </div>
+                <div class="key black svelte-1569eu9">D# </div>
+                <div class="key white svelte-1569eu9">E </div>
+                <div class="key white svelte-1569eu9">F </div>
+                <div class="key black svelte-1569eu9">F# </div>
+                <div class="key white svelte-1569eu9">G </div>
+                <div class="key black svelte-1569eu9">G# </div>
+                <div class="key white svelte-1569eu9">A </div>
+                <div class="key black svelte-1569eu9">A# </div>
+                <div class="key white svelte-1569eu9">B </div>
+                <div class="key white svelte-1569eu9">C </div>
+                <div class="key black svelte-1569eu9">C# </div>
+                <div class="key white svelte-1569eu9">D </div>
+                <div class="key black svelte-1569eu9">D# </div>
+                <div class="key white svelte-1569eu9">E </div>
+                <div class="key white svelte-1569eu9">F </div>
+                <div class="key black svelte-1569eu9">F# </div>
+                <div class="key white svelte-1569eu9">G </div>
+                <div class="key black svelte-1569eu9">G# </div>
+                <div class="key white svelte-1569eu9">A </div>
+                <div class="key black svelte-1569eu9">A# </div>
+                <div class="key white svelte-1569eu9">B </div>
+                <div class="key white svelte-1569eu9">C </div>
+                <div class="key black svelte-1569eu9">C# </div>
+                <div class="key white svelte-1569eu9">D </div>
+                <div class="key black svelte-1569eu9">D# </div>
+                <div class="key white svelte-1569eu9">E </div>
+                <div class="key white svelte-1569eu9">F </div>
+                <div class="key black svelte-1569eu9">F# </div>
+                <div class="key white svelte-1569eu9">G </div>
+                <div class="key black svelte-1569eu9">G# </div>
+                <div class="key white svelte-1569eu9">Be </div>
+                <div class="key black svelte-1569eu9">Li# </div>
+                <div class="key white svelte-1569eu9">He </div>
+                <div class="key white svelte-1569eu9">H </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
