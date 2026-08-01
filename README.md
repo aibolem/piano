@@ -3,9 +3,13 @@
 A fully featured piano with multiplayer and midi support able to be played
 with a computer keyboard, mouse, midi keyboard, and touchscreen.
 
-Live demo at https://calbabreaker.github.io/piano.
+Live demo at https://aibolem.github.io/piano/index2.html
 
-![screenshot](https://github.com/Calbabreaker/piano/assets/57030377/3159a33b-1c85-4698-8e0a-48383975d7b4)
+https://youtu.be/1f3L3tT0nS0
+
+
+<img width="920" height="580" alt="image" src="https://github.com/user-attachments/assets/edb2b548-c058-469b-a436-694bccf3301b" />
+
 
 ## Structure
 
